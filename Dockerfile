@@ -28,3 +28,4 @@ RUN set -ex \
     && cp bin/pg_stats_reporter /usr/local/bin \
     && chown www-data:www-data /var/www/pg_stats_reporter_lib/cache /var/www/pg_stats_reporter_lib/compiled
 
+EXPOSE 80
