@@ -1,6 +1,6 @@
-# pg_statsinfo_reporter Docker
+# pg_stats_reporter Docker
 
-pg_statsinfo_reporter Docker image.
+pg_stats_reporter Docker image.
 
 See also:
 
