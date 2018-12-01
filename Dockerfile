@@ -18,10 +18,10 @@ RUN set -ex \
 
 RUN set -ex \
 	&& cd /usr/local/src/ \
-    && curl -O https://excellmedia.dl.sourceforge.net/project/pgstatsinfo/pg_stats_reporter/3.3.1/pg_stats_reporter-3.3.1.tar.gz \
-    && tar xvf pg_stats_reporter-3.3.1.tar.gz \
-    && rm -rf pg_stats_reporter-3.3.1.tar.gz \
-    && cd pg_stats_reporter-3.3.1 \
+    && curl -O https://excellmedia.dl.sourceforge.net/project/pgstatsinfo/pg_stats_reporter/10.0/pg_stats_reporter-10.0.tar.gz \
+    && tar xvf pg_stats_reporter-10.0.tar.gz \
+    && rm -rf pg_stats_reporter-10.0.tar.gz \
+    && cd pg_stats_reporter-10.0 \
     && cp pg_stats_reporter_lib/pg_stats_reporter.ini.sample /etc/pg_stats_reporter.ini \
     && cp -R html/pg_stats_reporter /var/www/html \
     && cp -R pg_stats_reporter_lib /var/www \
